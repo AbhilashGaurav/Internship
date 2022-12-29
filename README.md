@@ -16,7 +16,7 @@ A new csv file with a name: "queries.csv" will also be there
 
 step3:
 
-Now run the "queries.py" file
+y" file
 
 step4: 
 
