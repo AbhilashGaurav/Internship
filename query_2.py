@@ -1,7 +1,7 @@
 import pandas as pd
 import os, shutil, glob
 
-query_2=pd.read_csv('ok.csv')
+query_2=pd.read_csv('Data_query.csv')
 query_2.drop(['Unnamed: 0'],axis=1,inplace=True)
 query_2.groupby('TIMESTAMP')
 # print(query_2.head())
