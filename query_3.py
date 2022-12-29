@@ -34,7 +34,7 @@ while(i+1<fi.shape[0]-1):
 print(ans.shape)
 ans= ans.sort_values('GAIN',ascending=False)
 ans = ans.head(25)
-ans.to_csv('Query3_output.csv')
+ans.to_csv('query_3_output.csv')
 # print(ans.head(30))
 print(ans.shape)
 
